@@ -1,0 +1,129 @@
+body {
+    background-color: white;
+    background: url("/lemon-backdrop.png") no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+h2, h3 {
+    color: #008000
+}
+
+.content h2, h3 {
+    color:white;
+}
+
+table {
+    width: 99%;
+}
+
+a {
+    text-decoration: none;
+    color: #008000;
+}
+
+.content {
+    background-color: #90EE90;
+    color: white;
+    opacity: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 20px;
+    width: 900px;
+}
+
+.contentWhite {
+    background-color: white;
+    opacity: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 20px;
+    width: 900px;
+}
+
+.hobbyUl {
+    display: inline-block;
+    text-align: left;
+}
+
+.ulDiv {
+    text-align: center;
+}
+
+.headInfo {
+    background-color: #90EE90;
+    color: white;
+    margin-right: 0;
+}
+
+.headName {
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: auto;
+}
+
+.headImage {
+    width: 200px;
+    margin: 20px;
+}
+
+.headContent {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.line {
+    border-bottom: 0.1em solid white;
+}
+
+.tldr {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content, .contentWhite {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .content, .contentWhite {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .content, .contentWhite {
+        max-width: 250px;
+    }
+
+    .headContent {
+        display: inline;
+        text-align: center;
+    }
+
+    .headName {
+        margin: 0;
+    }
+
+    img {
+        display: none;
+    }
+}

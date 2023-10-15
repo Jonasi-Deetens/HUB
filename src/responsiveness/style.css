@@ -1,0 +1,145 @@
+body {
+    background-color: blue;
+}
+
+.content {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.8em;
+}
+
+img {
+    height: 500px;
+    max-width: 600px;
+}
+
+#small {
+    width: 33.33%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#medium {
+    width: 33.33%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#large {
+    width: 33.33%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.medHeader, .smallHeader {
+    display: none;
+}
+
+/*
+#small, #medium {
+    display: none;
+}
+*/
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: green;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .imgMedium {
+        content: url("./pushing\ man\ left.jpg");
+    }
+
+    .imgLarge {
+        content: url("./middle\ man.jpg");
+    }
+
+    .medHeader {
+        display: block;
+    }
+
+    .wideHeader {
+        display: none;
+    }
+
+    #small {
+        width: 66.66%;
+    }
+
+    #medium {
+        width: 33.33%;
+    }
+
+    #large {
+        width: 100%;
+    }
+/*
+    #medium {
+        display: block;
+    }
+
+    #large {
+        display: none;
+    }
+*/
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+
+    h1 {
+        font-size: 0.7em;
+    }
+
+    p {
+        font-size: 0.4em;
+    }
+
+    #small {
+        width: 100%;
+    }
+
+    #medium {
+        width: 100%;
+    }
+
+    #large {
+        width: 100%;
+    }
+    
+    .smallHeader {
+        display: block;
+    }
+
+    .medHeader {
+        display: none;
+    }
+/*
+    #small {
+        display: block;
+    }
+
+    #medium {
+        display: none;
+    }
+*/
+}

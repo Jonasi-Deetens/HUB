@@ -1,0 +1,13 @@
+body {
+   /* font-family: 'Montserrat', sans-serif !important;*/
+}
+
+.cardStyle:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+.hoverButton:hover {
+    color: white !important;
+    background-color: #4c76ea !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
