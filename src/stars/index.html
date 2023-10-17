@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./stars.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black">
+    <div class="relative" id="space">
+        <div class="p-4 rounded-md text-center bg-white hidden" id="starId">
+        </div>
+        <div class="grid grid-cols-2">
+            <img class="ml-40 mt-20 inline w-96 h-96 col-span-1 rounded-full hover:shadow-md hover:shadow-white" src="./moon.png" alt="">
+            <div class="text-white col-span-1 m-auto">
+                <p class="">Hey there friends!</p>
+                <p class="">Let's meet the crew.</p>
+                <p class="">Click a star, to see who it is.</p>
+            </div>
+            <img class="h-30 w-48 ml-80 mt-20 col-start-2 -scale-x-100" src="./satellite.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

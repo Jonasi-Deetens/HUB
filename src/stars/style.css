@@ -1,0 +1,32 @@
+a {
+  color: blue !important;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#space {
+    width: 96%;
+    height: 95vh; /* You can adjust the height as needed */
+    margin: 0 auto;
+  }
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.star:hover {
+  box-shadow: yellow 0px 0px 25px;
+  transform: scale(2);
+}
+
+#starId {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: white 0px 0px 25px;
+}
